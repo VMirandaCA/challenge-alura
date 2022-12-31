@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Challenge ONE - Decodificador de Texto</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="decodificador.css">
+</head>
 
+	<header> 
+		<img class="gclogo" src="gc.png" alt="logo iniciais G C (Geminio Cripter)">
+	</header>
+<body>
+	<main>
+		<section class="input">
+		 	<textarea id="input-texto" class="input-texto" placeholder="digite seu texto aqui..."></textarea>
+		 	<div> 
+				<ul>
+					<li> 
+						<a class="informaçoes">
+							<img src="informaçoes.png" class="exclamação">Apenas letras minúsculas e sem acento
+						</a>
+					</li>
+				</ul>
+		 	</div>
+		 </section>
+
+		<section id="output">
+			<p class="msg">Seu texto aparecera aqui...</p>
+		 	<img  class="mostraimg" src="mostraimg.png" alt="Uma pessoa com lupa e um diamante ao lado">
+		 	<img class="mostramgs" src="Frame 5.png" alt="nenhuma menssagem encontrada">
+		</section>
+
+		 	<div class="botoes">
+			 	<button onclick="criptografar()" class="encriptar">Criptografar</button>
+
+				<button onclick="descriptografar()" class="desencriptar">Descriptografar</button>
+
+		 	</div>
+
+	</main>
+
+	<footer>
+		<img class="gclogorodape" src="gc.png" alt="logo iniciais G C (Geminio Cripter)">
+		<legend class="copyright">&copy; Copyright Vitoria Miranda- 2022</legend>
+		<nav class="redes">
+			<ul>
+				<li class="linkedin">
+					<a href="https://www.linkedin.com/in/vitoria-miranda-a9b172135/" target="_blank">
+						<img src="linkedin.png" alt="linkedin">
+					</a>
+					
+					<a href="https://github.com/VMirandaCA">
+						<img src="git.png"	alt="github">
+					</a>
+					
+					<a href="https://www.instagram.com/vitoriamcalves/">
+						<img src="insta.jpg" alt="instagram">
+					</a>
+				</li>
+			</ul>
+		</nav>		
+
+	</footer>
+
+	<script src="function.js"></script>
+	
+</body>
+</html>
