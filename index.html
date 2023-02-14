@@ -1,1 +1,69 @@
-<video tabindex="-1" class="video-stream html5-main-video" controlslist="nodownload" style="width: 932px; height: 524px; left: 0px; top: 0px;" src="blob:https://www.youtube.com/6ba961f7-90ec-43c2-bf8e-79377a29f552"></video>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Challenge ONE - Decodificador de Texto</title>
+	<link rel="stylesheet" href="./src/css/reset.css">
+	<link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+	<header> 
+		<img class="gclogo" src="./src/imagens/gc.png" alt="logo iniciais G C (Geminio Cripter)">
+	</header>
+<body>
+	<main>
+		<section class="input">
+		 	<textarea id="input-texto" class="input-texto" placeholder="digite seu texto aqui..."></textarea>
+		 	<div> 
+				<ul>
+					<li> 
+						<a class="informaçoes">
+							<img src="./src/imagens/informaçoes.png" class="exclamação">Apenas letras minúsculas e sem acento
+						</a>
+					</li>
+				</ul>
+		 	</div>
+		 </section>
+
+		<section id="output">
+			<p class="msg">Seu texto aparecera aqui...</p>
+		 	<img  class="mostraimg" src="./src/imagens/mostraimg.png" alt="Uma pessoa com lupa e um diamante ao lado">
+		 	<img class="mostramgs" src="./src/imagens/Frame 5.png" alt="nenhuma menssagem encontrada">
+		</section>
+
+		 	<div class="botoes">
+			 	<button onclick="criptografar()" class="encriptar">Criptografar</button>
+
+				<button onclick="descriptografar()" class="desencriptar">Descriptografar</button>
+
+		 	</div>
+
+	</main>
+
+	<footer>
+		<img class="gclogorodape" src="./src/imagens/gc.png" alt="logo iniciais G C (Geminio Cripter)">
+		<legend class="copyright">&copy; Copyright Vitoria Miranda- 2022</legend>
+		<nav class="redes">
+			<ul>
+				<li class="linkedin">
+					<a href="https://www.linkedin.com/in/vitoria-miranda-a9b172135/" target="_blank">
+						<img src="./src/imagens/linkedin.png" alt="linkedin">
+					</a>
+					
+					<a href="https://github.com/VMirandaCA">
+						<img src="./src/imagens/git.png"	alt="github">
+					</a>
+					
+					<a href="https://www.instagram.com/vitoriamcalves/">
+						<img src="./src/imagens/insta.jpg" alt="instagram">
+					</a>
+				</li>
+			</ul>
+		</nav>		
+
+	</footer>
+
+	<script src="./src/js/function.js"></script>
+	
+</body>
+</html>
